@@ -8,9 +8,9 @@ Free tools for cleaning data and finding hotspots of undervaccination. **RecordM
 
 | Step | Tool | What it does | Where it lives |
 |---|---|---|---|
-| 1. Prepare | **RecordMatcher** | Matches and merges records between two or more files that don't share a clean ID | This repo (`tools/RecordMatcher.html`) |
-| 2. Prepare | **PlaceFinder** | Turns addresses into latitude and longitude | This repo (`tools/PlaceFinder.html`) |
-| 3. Analyze | **spatiAlert** | Detects Getis-Ord Gi* hotspots from point or area-aggregated data | [Its own repo](https://github.com/eserman13/spatiAlert) |
+| 1.&nbsp;Prepare | **RecordMatcher** | Matches and merges records between two or more files that don't share a clean ID | This repo (`tools/RecordMatcher.html`) |
+| 2.&nbsp;Prepare | **PlaceFinder** | Turns addresses into latitude and longitude | This repo (`tools/PlaceFinder.html`) |
+| 3.&nbsp;Analyze | **spatiAlert** | Detects Getis-Ord Gi* hotspots from point or area-aggregated data | [Its own repo](https://github.com/eserman13/spatiAlert) |
 
 The first two steps get school-level vaccination data into the shape spatiAlert needs. Each tool also works on its own.
 
